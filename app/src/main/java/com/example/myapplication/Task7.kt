@@ -41,7 +41,7 @@ fun ContactColumn(contact: Contact, modifier: Modifier = Modifier) {
     }
 }
 
-// Задание 7, Column — второе изображение (список карточек)
+// список карточек
 @Composable
 fun ContactCard(contact: Contact) {
     Column(
@@ -67,7 +67,7 @@ fun ContactList() {
     }
 }
 
-// Задание 7, Row — карточка с изображением справа
+// row - карточка с изображением справа
 @Composable
 fun ContactRow(contact: Contact) {
     Row(

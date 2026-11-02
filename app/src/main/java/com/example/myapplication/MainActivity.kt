@@ -46,8 +46,13 @@ class MainActivity : ComponentActivity() {
                     //Hello(name = "Android", modifier = Modifier.padding(innerPadding))
                 // Запуск со значением null:
                     //Hello(name = null, modifier = Modifier.padding(innerPadding))
-                //
+                    //ContactColumnPreview()
+                    //ContactRowPreview()
+                    //ListPreview()
+
+                // счетчик воды
                     //WaterTracker()
+                // Корзина товаров
                     //ShoppingCartPreview()
                 }
             }

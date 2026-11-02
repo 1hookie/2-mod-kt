@@ -40,7 +40,6 @@ fun ShoppingCartScreen() {
             )
         )
     }
-    // исправлено
     val totalSum = products.sumOf { it.price }
 
     Column {
