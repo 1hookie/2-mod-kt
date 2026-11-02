@@ -42,10 +42,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // запуск с конкретным именем
+                // запуск с конкретным именем
                     //Hello(name = "Android", modifier = Modifier.padding(innerPadding))
-                    // Запуск со значением null:
+                // Запуск со значением null:
                     //Hello(name = null, modifier = Modifier.padding(innerPadding))
+                //
                     //WaterTracker()
                     //ShoppingCartPreview()
                 }
@@ -54,7 +55,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// ---------- Задание 1 ----------
+//  Задание 1 
 @Composable
 fun Hello(name: String?, modifier: Modifier = Modifier) {
     Text(
@@ -63,7 +64,7 @@ fun Hello(name: String?, modifier: Modifier = Modifier) {
     )
 }
 
-// ---------- Задание 2 ----------
+//  Задание 2 
 @Preview(
     name = "portrait",
     showSystemUi = true,
@@ -88,7 +89,7 @@ fun HelloPreview() {
     }
 }
 
-// ---------- Задание 3 ----------
+//  Задание 3 
 @Preview(showBackground = true)
 @Composable
 fun TextPreview1() {
@@ -124,7 +125,7 @@ fun TextPreview3() {
     )
 }
 
-// ---------- Задание 4 ----------
+//  Задание 4 
 @Composable
 fun ClickButton() {
     Button(
@@ -151,7 +152,7 @@ fun ButtonPreview() {
     }
 }
 
-// ---------- Задание 5 ----------
+//  Задание 5 
 @Composable
 fun Task1() {
     Box(
