@@ -29,7 +29,7 @@ val contacts = listOf(
     Contact("Людмила", "Прокофьевна", "Калугина", "+7 495 788 78 78", "Москва, Большая Никитская, д. 43, кв. 290")
 )
 
-// Задание 7, Column — первое изображение
+// Задание 7, Column
 @Composable
 fun ContactColumn(contact: Contact, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
